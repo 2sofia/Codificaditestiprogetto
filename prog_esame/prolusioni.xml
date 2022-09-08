@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="https://www.tei-c.org/ns/1.0/" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="11.1891">novembre 1891</date>)</title>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+                <respStmt xml:id="trascrizione">
+					<resp>Trascrizione di</resp>
+					<name ref="#BE">Simon Bouquet e Rudolf Engler</name>
+				</respStmt>
+                <respStmt xml:id="traduzione">
+					<resp>Traduzione di</resp>
+					<name ref="#EF">Emanuele Fadda</name>
+				</respStmt>
+                <respStmt xml:id="ricostrdate">
+                <resp>Ricostruzione delle date delle lezioni a cura di</resp>
+                    <name ref="#AC">Alessandro Chidichimo</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition n="DigitalEdition">Edizione digitale - <date when="09.2022">Settembre 2022</date>
+                </edition>
+                <respStmt xml:id="codifica">
+                    <resp>Codificato da</resp>
+                    <name ref="#SB">Sofia Bulleri</name>
+                </respStmt>
+                <respStmt xml:id="progettoprof">
+                    <resp>Progetto dell'edizione digitale coordinato da</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <availability><p>Accesso libero</p></availability>
+                <date when="2022">2022</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Biblioteca di Ginevra</institution>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">Biblioteca di Ginevra</repository>
+                        <collection>Archivi di Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.3</idno>
+                        <altIdentifier type="inventory"><idno>/17786/vtae78f994bf3242bef</idno></altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <docImprint>Ginevra,<docDate>1891</docDate></docImprint>
+                            <textLang mainLang="fr">Lingua Francese</textLang>
+                        </msItem>
+                    </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>Materiale: <material>carta</material></support>
+                            <extent>30 + 15 + 22 pagine + 1 foglietto.</extent>
+                        </supportDesc>
+                    </objectDesc>
+                    <handDesc hands="1">
+                            <handNote xml:id="h1">Il manoscritto è stato prodotto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                    </handDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <p xml:id="storiamain">Questo manoscitto racchiude gli appunti di <persName ref="#FdS">Ferdinand de Saussure</persName> utilizzati nelle prime conferenze all'<placeName type="institution">Università di Ginevra</placeName>.
+                        Una parte di essi, invece, sono stati adoperati per le prime lezioni del corso di <name xml:lang="fr">Phonétique du grec et du latin</name> <date>1891</date>.
+                        Probabilmente destinati alla pubblicazione di una brochure.</p>
+                        <p>Le tre conferenze sono state tenute nelle seguenti date:</p>
+                            <origDate n="1" when="06.11.1891">06/11/1891</origDate> Prima conferenza
+                            <origDate n="2" when="11.10.1891">10/11/1891</origDate> Seconda conferenza
+                            <origDate n="3" when="13.11.1891">13/11/1891</origDate> Terza conferenza
+                            tutte svoltesi a <placeName>Ginevra</placeName>
+                    </origin>
+                </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="argomenti">
+                    <category>
+                        <catDesc>Linguistica</catDesc>
+                    </category>
+                    <category>
+                        <catDesc>Dialetto</catDesc>
+                    </category>
+                    <category>
+                        <catDesc>Fonetica</catDesc>
+                    </category>
+                    <category>
+                        <catDesc>Linguaggio</catDesc>
+                    </category>
+                    <category>
+                        <catDesc>Differenziazione</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Tutte le parole abbreviate dall'autore, sono state trascritte nella loro forma estesa. I numeri sono stati trascritti in lettere.</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p>Queste due carte provengono dal quaderno di appunti di Ferdinand de Saussure. Le pagine sono state scritte come supporto alle lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign> all'Università di Ginevra. 
+                In particolare queste due pagine riguardano la terza lezione, il <date when="13.11.1891">13 novembre 1891</date>.
+                Il testo è in redazione quasi finale, infatti si notano correzioni, cancellature, aggiunte.</p>
+            </abstract>
+            <creation>
+                <date notAfter="1891">1891</date>
+            </creation>
+            <langUsage>
+                <language ident="fr">Francese</language>
+                <language ident="la">Latino</language>
+                <language ident="sav">Savoiardo</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="argomenti">
+                    <term>Linguistica</term>
+                    <term>Dialetto</term>
+                    <term>Fonetica</term>
+                    <term>Linguaggio</term>
+                    <term>Differenziazione</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!--Pagina 16-->
+        <surface n="16" xml:id="p16">
+            <graphic xml:id="p_16" url='img/p16.jpg' width='1157.76666px' height='1809.76666px'/>
+            <zone ulx="40" uly="42" lrx="210" lry="158" rendition="#hotspot" xml:id="p16_num"/>
+            <zone ulx="250" uly="48" lrx="1102" lry="135" rendition="#line" xml:id="p16_l1"/>
+            <zone ulx="221" uly="131" lrx="1092" lry="183" rendition="#line" xml:id="p16_l2"/>
+            <zone ulx="223" uly="195" lrx="1106" lry="244" rendition="#line" xml:id="p16_l3"/>
+            <zone ulx="221" uly="256" lrx="1120" lry="295" rendition="#line" xml:id="p16_l4"/>
+            <zone ulx="239" uly="310" lrx="1109" lry="356" rendition="#line" xml:id="p16_l5"/>
+            <zone ulx="239" uly="362" lrx="1091" lry="407" rendition="#line" xml:id="p16_l6"/>
+            <zone ulx="243" uly="410" lrx="1114" lry="474" rendition="#line" xml:id="p16_l7"/>
+            <zone ulx="25" uly="465" lrx="193" lry="560" rendition="#hotspot" xml:id="p16_side1"/>
+            <zone ulx="248" uly="480" lrx="1102" lry="523" rendition="#line" xml:id="p16_l8"/>
+            <zone ulx="254" uly="539" lrx="1085" lry="577" rendition="#line" xml:id="p16_l9"/>
+            <zone ulx="249" uly="585" lrx="1128" lry="635" rendition="#line" xml:id="p16_l10"/>
+            <zone ulx="252" uly="648" lrx="1122" lry="694" rendition="#line" xml:id="p16_l11"/>
+            <zone ulx="253" uly="698" lrx="1094" lry="749" rendition="#line" xml:id="p16_l12"/>
+            <zone ulx="257" uly="752" lrx="1107" lry="815" rendition="#line" xml:id="p16_l13"/>
+            <zone ulx="268" uly="814" lrx="1094" lry="863" rendition="#line" xml:id="p16_l14"/>
+            <zone ulx="279" uly="862" lrx="1068" lry="915" rendition="#line" xml:id="p16_l15"/>
+            <zone ulx="261" uly="929" lrx="1101" lry="981" rendition="#line" xml:id="p16_l16"/>
+            <zone ulx="276" uly="988" lrx="1111" lry="1035" rendition="#line" xml:id="p16_l17"/>
+            <zone ulx="117" uly="1065" lrx="244" lry="1115" rendition="#hotspot" xml:id="p16_side2"/>
+            <zone ulx="264" uly="1047" lrx="1120" lry="1096" rendition="#line" xml:id="p16_l18"/>
+            <zone ulx="32" uly="1130" lrx="263" lry="1246" rendition="#hotspot" xml:id="p16_side3"/>
+            <zone ulx="268" uly="1108" lrx="1128" lry="1154" rendition="#line" xml:id="p16_l19"/>
+            <zone ulx="289" uly="1168" lrx="546" lry="1240" rendition="#line" xml:id="p16_l20"/>
+            <zone ulx="367" uly="1186" lrx="1122" lry="1291" rendition="#line" xml:id="p16_l21"/>
+            <zone ulx="264" uly="1264" lrx="1097" lry="1366" rendition="#line" xml:id="p16_l22"/>
+            <zone ulx="278" uly="1321" lrx="1080" lry="1406" rendition="#line" xml:id="p16_l23"/>
+            <zone ulx="273" uly="1377" lrx="1102" lry="1460" rendition="#line" xml:id="p16_l24"/>
+            <zone ulx="258" uly="1428" lrx="1098" lry="1542" rendition="#line" xml:id="p16_l25"/>
+            <zone ulx="284" uly="1494" lrx="1077" lry="1569" rendition="#line" xml:id="p16_l26"/>
+            <zone ulx="276" uly="1555" lrx="1112" lry="1631" rendition="#line" xml:id="p16_l27"/>
+            <zone ulx="254" uly="1604" lrx="1074" lry="1689" rendition="#line" xml:id="p16_l28"/>
+            <zone ulx="303" uly="1652" lrx="1151" lry="1749" rendition="#line" xml:id="p16_l29"/>
+            <zone ulx="451" uly="1719" lrx="1122" lry="1788" rendition="#line" xml:id="p16_l30"/>
+            <zone ulx="4" uly="29" lrx="1155" lry="1798" rendition="#pagIntera" xml:id="p16_pagintera"/>
+        </surface>
+        <!--Pagina 16 retro-->
+        <surface  n="16r" xml:id="p16r">
+            <graphic url='img/p16r.jpg' width='1154.76666px' height='1813.76666px' xml:id="p_16r"/>
+            <zone ulx="25" uly="7" lrx="1154" lry="1810" rendition="#pagIntera" xml:id="p16retro_pagintera"/>
+        </surface>
+        <!--Pagina 17-->
+        <surface  n="17" xml:id="p17">
+            <graphic url='img/p17.jpg' width='1156.76666px' height='1811.76666px' xml:id="p_17"/>
+            <zone ulx="943" uly="29" lrx="1128" lry="136" rendition="#line" xml:id="p17_num"/>
+            <zone ulx="311" uly="90" lrx="1109" lry="167" rendition="#line" xml:id="p17_l1"/>
+            <zone ulx="254" uly="166" lrx="1141" lry="223" rendition="#line" xml:id="p17_l2"/>
+            <zone ulx="265" uly="225" lrx="1140" lry="287" rendition="#line" xml:id="p17_l3"/>
+            <zone ulx="358" uly="299" lrx="1136" lry="391" rendition="#line" xml:id="p17_l4"/>
+            <zone ulx="264" uly="375" lrx="1090" lry="435" rendition="#line" xml:id="p17_l5"/>
+            <zone ulx="272" uly="443" lrx="1132" lry="498" rendition="#line" xml:id="p17_l6"/>
+            <zone ulx="274" uly="487" lrx="1093" lry="566" rendition="#line" xml:id="p17_l7"/>
+            <zone ulx="270" uly="537" lrx="1103" lry="623" rendition="#line" xml:id="p17_l8"/>
+            <zone ulx="280" uly="599" lrx="1093" lry="672" rendition="#line" xml:id="p17_l9"/>
+            <zone ulx="274" uly="659" lrx="1100" lry="732" rendition="#line" xml:id="p17_l10"/>
+            <zone ulx="274" uly="718" lrx="1078" lry="799" rendition="#line" xml:id="p17_l11"/>
+            <zone ulx="252" uly="764" lrx="1087" lry="876" rendition="#line" xml:id="p17_l12"/>
+            <zone ulx="39" uly="842" lrx="252" lry="1029" rendition="#hotspot" xml:id="p17_side1"/>
+            <zone ulx="278" uly="822" lrx="1119" lry="914" rendition="#line" xml:id="p17_l13"/>
+            <zone ulx="281" uly="879" lrx="1091" lry="969" rendition="#line" xml:id="p17_l14"/>
+            <zone ulx="277" uly="963" lrx="1120" lry="1020" rendition="#line" xml:id="p17_l15"/>
+            <zone ulx="284" uly="1016" lrx="1113" lry="1085" rendition="#line" xml:id="p17_l16"/>
+            <zone ulx="289" uly="1074" lrx="1092" lry="1149" rendition="#line" xml:id="p17_l17"/>
+            <zone ulx="291" uly="1129" lrx="1102" lry="1204" rendition="#line" xml:id="p17_l18"/>
+            <zone ulx="22" uly="1168" lrx="233" lry="1295" rendition="#hotspot" xml:id="p17_side2"/>
+            <zone ulx="297" uly="1192" lrx="1093" lry="1264" rendition="#line" xml:id="p17_l19"/>
+            <zone ulx="298" uly="1238" lrx="1136" lry="1320" rendition="#line" xml:id="p17_l20"/>
+            <zone ulx="288" uly="1306" lrx="1087" lry="1384" rendition="#line" xml:id="p17_l21"/>
+            <zone ulx="294" uly="1359" lrx="1106" lry="1456" rendition="#line" xml:id="p17_l22"/>
+            <zone ulx="300" uly="1402" lrx="1125" lry="1506" rendition="#line" xml:id="p17_l23"/>
+            <zone ulx="305" uly="1483" lrx="1088" lry="1573" rendition="#line" xml:id="p17_l24"/>
+            <zone ulx="318" uly="1552" lrx="1125" lry="1632" rendition="#line" xml:id="p17_l25"/>
+            <zone ulx="321" uly="1613" lrx="1116" lry="1694" rendition="#line" xml:id="p17_l26"/>
+            <zone ulx="344" uly="1663" lrx="1106" lry="1745" rendition="#line" xml:id="p17_l27"/>
+            <zone ulx="328" uly="1714" lrx="1115" lry="1804" rendition="#line" xml:id="p17_l28"/>
+            <zone ulx="73" uly="1704" lrx="281" lry="1801" rendition="#hotspot" xml:id="p17_side3"/>
+            <zone ulx="18" uly="15" lrx="1148" lry="1809" rendition="#pagIntera" xml:id="p17_pagintera"/>
+        </surface>
+        <!--Pagina 17 retro-->
+        <surface  n="17r" xml:id="p17r">
+            <graphic url='img/p17r.jpg' width='1162.76666px' height='1801.76666px' xml:id="p_17r"/>
+            <zone ulx="6" uly="11" lrx="1161" lry="1789" rendition="#pagIntera" xml:id="p17retro_pagintera"/>
+        </surface>
+    </facsimile>
+
+    <text xml:id="text_pag16" subtype="manuscript">
+        <body xml:lang="fr">
+            <pb n="pag16" xml:id="pb_pag16" facs="#p16_pagintera"/>
+                <fw type="pageNum" xml:id="numeropag16_handwrite" rend="align(left)" facs="p16_num">16</fw>
+                <div xml:id="testo_p16" n="16">
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag1_p16">
+                        <lb xml:id="lb1_p16" n="1" facs="p16_l1" corresp="parag1_p16"/>
+                            Si nous essayons <add place="above">maintenant</add> de combiner, <add place="above">de composer</add> <term ref="#lf">le fait</term> de la
+                        <lb xml:id="lb2_p16" n="2" facs="p16_l2" corresp="parag1_p16"/>
+                            <term ref="#diff">différenciation</term> dans le <term ref="#temps">temps</term> avec celui de la
+                        <lb xml:id="lb3_p16" n="3" facs="p16_l3" corresp="parag1_p16"/>
+                            <abbr>diff<am>.</am></abbr> <term ref="#diff"><expan>différenciation</expan></term>
+                            dans l’<term ref="#esp">espace</term>, à quelle <term ref="#perpct">perspective</term> des <term ref="#phen"><add place="above">phénomènes</add></term> arrive<pc force="inter">-</pc>
+                        <lb xml:id="lb4_p16" n="4" facs="p16_l4" break="no" corresp="parag1_p16"/>
+                            <pc force="inter">-</pc>rons-nous assez <term ref="#natml">naturellement</term> ?
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag2_p16">
+                            Soit une certaine
+                        <lb xml:id="lb5_p16" n="5" facs="p16_l5" corresp="parag2_p16"/>
+                            <term ref="#surf">surface</term> de <choice n="sc"><sic><num>1000</num></sic> <corr>mille</corr></choice> <term ref="#lie">lieues</term><term ref="#carr"> carrées</term> où se parle à un moment donné <choice n="sc"><sic>un</sic> <corr>même</corr></choice>
+                        <lb xml:id="lb6_p16" n="6" facs="p16_l6" corresp="parag2_p16"/>
+                            <term ref="#idm">idiome</term><choice n="sc"><sic>; -</sic><corr>:</corr></choice> 500 ans après il y a <choice n="or"><orig>tte </orig><reg>toute</reg></choice> une
+                        <lb xml:id="lb7_p16" n="7" facs="p16_l7" corresp="parag2_p16"/>
+                            série de <term ref="#dias">dialectes</term> <term ref="#diffes">différents</term> sur la même <term ref="#surf">surface</term>.
+                        <lb xml:id="lb8_p16" n="8" facs="p16_side1" corresp="parag2_p16"/>
+                            <add place="margin_left">B' B" B'"</add>
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag3_p16">
+                        <lb xml:id="lb9_p16" n="9" facs="p16_l8" corresp="parag3_p16"/>
+                            Mais si nous partageons en <choice n="sc"><sic>2</sic><corr>deux</corr></choice> la <term ref="#dist">distance</term>
+                        <lb xml:id="lb10_p16" n="10" facs="p16_l9" corresp="parag3_p16"/>
+                            <choice n="or"><orig>ds </orig> <reg>dans</reg></choice> le <term ref="#temps">temps</term>: <del rend="strikethrough" hand="author">il est</del> il en résulte <term ref="#intblm">inévitablement</term>
+                        <lb xml:id="lb11_p16" n="11" facs="p16_l10" corresp="parag3_p16"/>
+                            aussi un tout autre aspect des <term ref="#diffdia">diff<am>.</am><add place="inline">érences</add> dialectales</term>;
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag4_p16">
+                        <lb xml:id="lb12_p16" n="12" facs="p16_l11" corresp="parag4_p16"/>
+                            <abbr>c<am>.</am>à<am>.</am>d<am>.</am></abbr> <expan>c’est-à-dire</expan> qu’au bout de 250 ans, non seulement
+                        <lb xml:id="lb13_p16" n="13" facs="p16_l12" corresp="parag4_p16"/>
+                            <term ref="#diffdia"><add change="#CH1" place="margin_left">les <abbr>diff</abbr><am>.</am></add> <expan>différents</expan>
+                            <gap reason="illegible"/> dialectes</term> B' B" ne <del rend="strikethrough" hand="author">seron</del> <add change="#CH2" place="inline">sont</add> pas
+                        <lb xml:id="lb14_p16" n="14" facs="p16_l13" corresp="parag4_p16"/>
+                            encore ce qu’ils <del rend="overstrike" hand="author">sont</del> seront, mais qu’ils n’existent
+                        <lb xml:id="lb15_p16" n="15" facs="p16_l14" corresp="parag4_p16"/>
+                            pas encore comme <term ref="#diaindv">dialectes individuels</term>;
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag5_p16">
+                            il n’y
+                        <lb xml:id="lb16_p16" n="16" facs="p16_l15" corresp="parag5_p16"/>
+                            a par <abbr>ex<am>.</am></abbr> <expan>exemple</expan> au bout de 250 ans que <choice n="sc"><sic>2</sic> <corr>deux</corr></choice>
+                        <lb xml:id="lb17_p16" n="17" facs="p16_l16" corresp="parag5_p16"/>
+                            grandes <term ref="#frct">fractions</term> au <term ref="#lieu">lieu</term> de <choice n="sc"><sic>30</sic> <corr>trente</corr></choice> ou <choice n="sc"><sic>40</sic> <corr>quarante</corr></choice>;
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag6_p16">
+                        <lb xml:id="lb18_p16" n="18" facs="p16_l17" corresp="parag6_p16"/>
+                            et de <choice  n="sc"><sic>+</sic> <corr>plus</corr></choice> ces <choice  n="sc"><sic>2</sic> <corr>deux</corr></choice> grandes <term ref="#frct">fractions</term> ne sont pas
+                        <lb xml:id="lb19_p16" n="19" facs="p16_l18" corresp="parag6_p16"/>
+                            <add place="margin_left">encore</add> très <term ref="#crtct">caractérisées</term> chacune, de façon <del rend="strikethrough">qu'on</del>
+                        <lb xml:id="lb20_p16" n="20" facs="p16_side2" corresp="parag6_p16"/>
+                            <add place="margin_left">que l’habitant d’un village de l’extrême Sud</add>
+                        <lb xml:id="lb21_p16" n="21" facs="p16_l19" corresp="parag6_p16"/>
+                            pourra encore se faire comprendre à l’ex<pc force="inter">-</pc>
+                        <lb xml:id="lb22_p16" n="22" facs="p16_l20" break="no" corresp="parag6_p16"/>
+                            <pc force="inter">-</pc>trême Nord.
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag7_p16">
+                        <lb xml:id="lb23_p16" n="23" facs="p16_l21" corresp="parag7_p16"/>
+                            Cette <term ref="#vue">vue</term>, <abbr>MM<am>.</am></abbr> <expan>Messieurs</expan>, n’est ni <del rend="strikethrough">précise</del> très
+                        <lb xml:id="lb24_p16" n="24" facs="p16_l22" corresp="parag7_p16"/>
+                            <term ref="#fss">fausse</term> d’<choice n="sc"><sic><num>1</num></sic> <corr>un</corr></choice> côté, ni très <term ref="#vr">vraie</term> de l’autre.
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag8_p16">
+                        <lb xml:id="lb25_p16" n="25" facs="p16_l23" corresp="parag8_p16"/>
+                            Une des conquêtes les <choice  n="sc"><sic>+</sic> <corr>plus</corr></choice> appréciables, et les
+                        <lb xml:id="lb26_p16" n="26" facs="p16_l24" corresp="parag8_p16"/>
+                            plus récentes, de la <term ref="#ligst">linguistique</term>, due <del rend="strikethrough">en bon</del>
+                        <lb xml:id="lb27_p16" n="27" facs="p16_l25" corresp="parag8_p16"/>
+                            principalement à <name ref="#MPM" type="person">M. Paul Meyer</name> de l’<placeName ref="#EdC" type="institution">École</placeName>
+                        <lb xml:id="lb28_p16" n="28" facs="p16_l26" break="no" corresp="parag8_p16"/>
+                            <placeName ref="#EdC" type="institution">des Chartes</placeName>, c’est <del rend="strikethrough">qu'il <emph rend="underline">n'existe pas en </emph></del>
+                        <lb xml:id="lb29_p16" n="29" facs="p16_l27" corresp="parag8_p16"/>
+                            <del rend="strikethrough">réalité d'unités.</del> que les <term ref="#dias">dialectes</term> ne sont
+                        <lb xml:id="lb30_p16" n="30" facs="p16_l28" corresp="parag8_p16"/>
+                            pas en <term ref="#rlt">réalité</term> des <term ref="#unt">unités</term> <term ref="#def">définies</term>, qu’il
+                        <lb xml:id="lb31_p16" n="31" facs="p16_l29" corresp="parag8_p16"/>
+                            <emph rend="underline">n’existe pas</emph> <term ref="#geomnt">géographiquement</term> de <term ref="#dias">dialectes</term>; mais qu’il existe
+                        <lb xml:id="lb32_p16" n="32" facs="p16_l30" corresp="parag8_p16"/>
+                            en revanche <term ref="#geomnt">géographiquement</term> des <term ref="#carac"><emph rend="underline">caractères</emph></term> <add place="below">dialectaux</add>.
+                    </ab>
+                </div>
+            <pb n="pag17" xml:id="pb_pag17" facs="#p17_pagintera"/>
+                <fw type="pageNum" xml:id="numeropag17_handwrite" rend="align(right)" facs="#p17_num">17</fw>
+                <div xml:id="testo_p17" n="17">
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag1_p17">
+                        <lb xml:id="lb1_p17" n="1" facs="#p17_l1" corresp="parag1_p17"/>
+                            Si ce <term ref="#prin">principe</term> peut sembler <term ref="#aprinc">au <choice n="sc"><sic>1°</sic> <corr>premier</corr></choice></term>
+                        <lb xml:id="lb2_p17" n="2" facs="#p17_l2" corresp="parag1_p17"/>    
+                            abord un peu obscur, il va devenir <term ref="#imm">immé-</term>
+                        <lb xml:id="lb3_p17" n="3" facs="#p17_l3" break="no" corresp="parag1_p17"/>    
+                           <term ref="#imm">diatement</term>, j’en ai la confiance, d’une clarté <choice n="sc"><sic>,</sic><corr>...</corr></choice>
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag2_p17">
+                        <lb xml:id="lb4_p17" n="4" facs="#p17_l4" corresp="parag2_p17"/>    
+                            Lorsqu’on essaie de tracer <add change="#CH3" place="above">sur la <term ref="#car">carte</term> </add><del change="#CH4" rend="strikethrough">géographiquement</del> les 
+                        <lb xml:id="lb5_p17" n="5" facs="#p17_l5" corresp="parag2_p17"/>    
+                            <term ref="#lim">limites</term> d’un <term ref="#dial">dialecte</term> <emph rend="underline"><term ref="#parf">parfaitement</term> connu</emph>, on 
+                        <lb xml:id="lb6_p17" n="6" facs="#p17_l5" corresp="parag2_p17"/>    
+                            <del rend="strikethrough">n'y <gap reason="illegible" atLeast="7" atMost="9" unit="chars"/> pas, ou si on y <gap reason="illegible" atLeast="1" atMost="2"/></del> est évi<pc force="inter">-</pc>
+                        <lb xml:id="lb7_p17" n="7" facs="#p17_l7" break="no" corresp="parag2_p17"/>    
+                            <pc force="inter">-</pc>demment obligé de dire quels sont les
+                        <lb xml:id="lb8_p17" n="8" facs="#p17_l8" corresp="parag2_p17"/>    
+                            <term ref="#carac">caractères</term> qu’on <add change="#CH5" place="above">reconnaît</add>
+                            <del change="#CH2" rend="strikethrough">adopte</del> comme <term ref="#distfs">distinctifs</term> 
+                        <lb xml:id="lb9_p17" n="9" facs="#p17_l9" corresp="parag2_p17"/>       
+                            de ce <abbr>dial<am>.</am></abbr><expan><term ref="#dial">dialecte</term></expan> par rapport aux <term ref="#dialcirc">dialectes circon</term>
+                        <lb xml:id="lb10_p17" n="10" facs="#p17_l10" break="no" corresp="parag2_p17"/>       
+                            <term ref="#dialcirc">voisins.</term>
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag3_p17">
+                            Par <abbr>ex<am>.</am></abbr> <expan><term ref="#ex">exemple</term></expan>, si j’admets qu’il existe 
+                        <lb xml:id="lb11_p17" n="11" facs="#p17_l11" corresp="parag3_p17"/>       
+                            un <term ref="#dilsav">dialecte <term xml:lang="sav">savoyard</term></term>, mon <choice n="sc"><sic><num value="1">1°</num></sic> <corr><term ref="#prem">premier</term></corr></choice>
+                            <term ref="#dev"> devoir</term> est de 
+                        <lb xml:id="lb12_p17" n="12" facs="#p17_l12" corresp="parag3_p17"/>
+                            poser en quoi ce <term ref="#dial">dialecte</term> est <term ref="#diffe">différent</term> de tout 
+                        <lb xml:id="lb13_p17" n="13" facs="#p17_l13" corresp="parag3_p17"/>       
+                            autre <term ref="#dilfr">dialecte <term xml:lang="fr">français</term></term>, <add place="margin_left" facs="p17_side1">d’autre part 
+                            <emph rend="underline">un</emph> en lui même.</add>    
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag4_p17">
+                              Je vais donc me mettre 
+                        <lb xml:id="lb14_p17" n="14" facs="#p17_l14" corresp="parag4_p17"/> 
+                              à la recherche de ces <term ref="#ccdd">caractères communs <add place="above">de distinction</add></term>.
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag5_p17">
+                            Je puis 
+                        <lb xml:id="lb15_p17" n="15" facs="#p17_l15" break="no" corresp="parag5_p17"/> 
+                            <term ref="#imag">imaginer</term> <term ref="#apa">au <choice n="sc"><sic><num value="1">1°</num></sic><corr>premier</corr></choice> abord</term> 
+                            par <abbr>ex<am>.</am></abbr><expan><term ref="#ex">exemple</term></expan> que la <term ref="#cons">conser<pc force="inter">-</pc></term>
+                        <lb xml:id="lb16_p17" n="16" facs="#p17_l16" break="no" corresp="parag5_p17"/> 
+                            <term ref="#cons"><pc force="inter">-</pc>vation</term> de l’<term ref="#afinat"><emph rend="underline">a</emph> final <add place="above">atone</add></term> 
+                            <term xml:lang="lat" ref="#latin">latin</term> comme <choice  n="sc"><sic>ds</sic> <corr>dans</corr></choice> <mentioned xml:lang="sav"><emph rend="underline">feña</emph></mentioned><supplied reason="language">[savoiardo]</supplied>
+                        <lb xml:id="lb17_p17" n="17" facs="#p17_l17" corresp="parag5_p17"/> 
+                            <add hand="editor"><am>«</am></add> la <mentioned xml:lang="fr">femme</mentioned> <supplied reason="language">[francese]</supplied> <add hand="editor"><am>»</am></add>, <emph rend="undeline"><mentioned xml:lang="sav">Θenva</mentioned></emph><supplied reason="language">[savoiardo]</supplied>
+                            <add hand="editor"><am>«</am></add> <mentioned xml:lang="fr">Genève</mentioned> <supplied reason="language">[francese]</supplied> <add hand="editor"><am>»</am></add>, 
+                            <del rend="strikethrough" change="#CH6">est</del> <add change="#CH7" rend="above">qui est</add> un <term ref="#signcom">signe <add rend="above">commun</add></term> du 
+                        <lb xml:id="lb18_p17" n="18" facs="#p17_l18" corresp="parag5_p17"/> 
+                            <abbr>dial</abbr><am>.</am> <term ref="#dilsav"><expan>dialecte</expan> <term xml:lang="sav">savoyard</term> </term>, 
+                            <add place="margin_left" facs="#p17_side2">est aussi un <term ref="#sigdisdia">signe distinctif dialectal</term></add> mais, en portant <choice  n="sc"><sic>+</sic> <corr>plus</corr></choice> loin mon 
+                        <lb xml:id="lb19_p17" n="19" facs="#p17_l19" corresp="parag5_p17"/> 
+                            <term ref="#obs">observation</term>, je constaterai que cela est <term ref="#comm">commun </term>
+                        <lb xml:id="lb20_p17" n="19" facs="#p17_l20" corresp="parag5_p17"/> 
+                            au <abbr>dial</abbr><am>.</am> <term ref="#dilsav"> <expan>dialecte</expan> <term xml:lang="sav">savoyard</term></term> 
+                            et à <abbr>tt</abbr> <expan>tout</expan> le <placeName ref="#SudFr">Sud de la France</placeName>;
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag6_p17">
+                        <lb xml:id="lb21_p17" n="21" facs="#p17_l21" corresp="parag6_p17"/> 
+                            il n’y a donc là aucun <term ref="#cardis">caractère distinctif</term>.
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag7_p17">
+                        <lb xml:id="lb22_p17" n="22" facs="#p17_l22" corresp="parag7_p17"/> 
+                           <del rend="strikethrough"> <gap reason="illegible" extent="1 char"/></del>Je remarque alors que le <placeName ref="#SudFr">Sud de la France</placeName>
+                        <lb xml:id="lb23_p17" n="23" facs="#p17_l23" corresp="parag7_p17"/> 
+                            n’a pas changé le <term ref="#gro">groupe</term> <emph rend="underline">ça</emph> <term xml:lang="lat" ref="#latin">latin</term> en <emph rend="undeline"><mentioned xml:lang="lat">tša</mentioned></emph>, 
+                        <lb xml:id="lb24_p17" n="24" facs="#p17_l24" corresp="parag7_p17"/> 
+                            <emph rend="undeline"><mentioned xml:lang="lat">ša</mentioned></emph> ou autre chose, <add place="above" n="nostil"><mentioned xml:lang="lat">canto</mentioned></add> <supplied reason="language">[latino]</supplied>, tandis qu’en <term xml:lang="sav" ref="#dilsav">savoyard</term>, 
+                        <lb xml:id="lb25_p17" n="25" facs="#p17_l25" corresp="parag7_p17"/> 
+                            il y a changement : <emph rend="undeline"><mentioned xml:lang="sav">θãtå</mentioned></emph> <supplied reason="language">[savoiardo]</supplied> ;
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag8_p17">
+                            ce <term ref="#car">caractère</term> sera
+                        <lb xml:id="lb26_p17" n="26" facs="#p17_l26" break="no" corresp="parag8_p17"/> 
+                            -t-il meilleur ?
+                    </ab>
+                    <ab type="paragraf" xml:lang="fr" xml:id="parag9_p17">
+                            Nullement, parce que ce <term ref="#car">caractère</term>-là 
+                        <lb xml:id="lb27_p17" n="27" facs="#p17_l27" corresp="parag9_p17"/> 
+                            est <term ref="#comm">commun</term> en revanche avec le <placeName ref="#NEterr">Nord-Est 
+                        <lb xml:id="lb28_p17" n="28" facs="#p17_l28" corresp="parag9_p17"/> 
+                            du territoire</placeName>, relie le <term xml:lang="sav" ref="#dilsav">savoyard</term> avec le pays de
+                        <lb xml:id="lb29_p17" n="29" facs="#p17_side3" corresp="parag9_p17"/> 
+                            <add place="margin_left" n="nostil"><placeName ref="#Gex">Gex</placeName>, la <placeName ref="#FrCom">Franche-Comté</placeName>, <placeName ref="#Par">Paris</placeName></add>.
+                    </ab>
+                </div>
+
+                <div type="traduction" xml:id="trad_p16">
+                    <ab corresp="parag1_p16" n="1" xml:lang="it">
+                        Se noi proviamo ora a combinare, a comporre il fatto della 
+                        differenziazione nel tempo con quello della differenziazione nello spazio, a quale 
+                        prospettiva sui fenomeni arriveremo abbastanza naturalmente?   
+                    </ab>
+                    <ab corresp="parag2_p16" n="2" xml:lang="it">
+                        Sia una certa superficie di mille leghe quadrate in cui si parla un idioma in un momento dato: 500 anni dopo c’è tutta una serie di 
+                        dialetti differenti sulla medesima superficie, B’, B’’, B’’’.
+                    </ab>  
+                    <ab corresp="parag3_p16" n="3" xml:lang="it">
+                        Ma se noi dividiamo in due la distanza nel tempo, ne risulta inevitabilmente anche un aspetto 
+                        completamente diverso delle differenze dialettali; 
+                    </ab>
+                    <ab corresp="parag4_p16" n="4" xml:lang="it">
+                        vale a dire che in capo a 250 anni, non solo i 
+                        differenti dialetti B’, B’’ non sono ancora ciò che saranno, ma che essi non esistono ancora come dialetti individuali;
+                    </ab>
+                    <ab corresp="parag5_p16" n="5" xml:lang="it">
+                        per esempio, in capo a 250 anni ci sono soltanto due grandi frazioni in luogo di trenta o quaranta;
+                    </ab>
+                    <ab corresp="parag6_p16" n="6" xml:lang="it">
+                        e in più queste due grandi frazioni non sono ancora molto caratterizzate ognuna per proprio conto, di modo che l’abitante di 
+                        un villaggio dell’estremo sud potrà ancora farsi capire all’estremo nord.
+                    </ab>
+                    <ab corresp="parag7_p16" n="7" xml:lang="it">
+                        Questa visione, Signori, da una parte non è del tutto vera, e dall’altra non è del tutto falsa.
+                    </ab>
+                    <ab corresp="parag8_p16" n="8" xml:lang="it">
+                        Una delle conquiste più pregevoli della linguistica, dovuta principalmente a Paul Meyer dell’École des 
+                        Chartes, è che i dialetti non sono in realtà unità definite, che non esistono geograficamente dei dialetti; ma esistono invece, geograficamente, dei caratteri dialettali.
+                    </ab>                    
+                </div>
+                <div type="traduction" xml:id="trad_p17">
+                    <ab corresp="parag1_p17" n="1" xml:lang="it">
+                        Se questo principio può sembrare di primo acchito un po’ oscuro, diventerà immediatamente, ne sono convinto, di una chiarezza [ ].
+                    </ab>
+                    <ab corresp="parag2_p17" n="2" xml:lang="it">
+                        Allorché si cerca di tracciare sulla carta i limiti di un dialetto perfettamente conosciuto, si è 
+                        evidentemente obbligati a dire quali sono i caratteri che si riconoscono come distintivi di questo dialetto in rapporto ai dialetti circonvicini.
+                    </ab>
+                    <ab corresp="parag3_p17" n="3" xml:lang="it">
+                        Per esempio, se ammetto che esiste un dialetto savoiardo, il mio primo dovere è di stabilire in che cosa tale dialetto è 
+                        differente da ogni altro dialetto francese, e d’altra parte uno in se stesso.
+                    </ab>
+                    <ab corresp="parag4_p17" n="4" xml:lang="it">
+                        Mi accingo dunque a mettermi alla ricerca di tali caratteri comuni di distinzione.
+                    </ab>
+                    <ab corresp="parag5_p17" n="5" xml:lang="it">
+                        Posso immaginare anzitutto per esempio che la conservazione della a finale atona latina come in feña “la donna”, Qenva “Ginevra”, 
+                        che è un segno comune del dialetto savoiardo, è anche un segno distintivo dialettale ma, conducendo 
+                        più avanti la mia osservazione, constaterò che ciò è comune al dialetto savoiardo e a tutto il sud della Francia;
+                    </ab>
+                    <ab corresp="parag6_p17" n="6" xml:lang="it">
+                        non vi è dunque alcun carattere distintivo.
+                    </ab>
+                    <ab corresp="parag7_p17" n="7" xml:lang="it">
+                        Osservo allora che il sud della Francia non ha cambiato il gruppo ca latino in tša, sa o altro, canto, mentre in savoiardo c’è cambiamento Qãtå;
+                    </ab>
+                    <ab corresp="parag8_p17" n="8" xml:lang="it">
+                        tale carattere sarà migliore?
+                    </ab>
+                    <ab corresp="parag9_p17" n="9" xml:lang="it">
+                        Per nulla, perché quel carattere, invece, è comune col nord-est del territorio, collega il savoiardo con il paese di 
+                        Gex, la Franca-Contea, Parigi.
+                    </ab>
+                </div>
+        </body>
+
+        <back>
+            <list type="terminology">
+            <head>Glossario</head>
+                <label>
+                    <term xml:lang="fr" xml:id="diff">différenciation</term>
+                    <term xml:lang="it" ref="#diff">differenziazione</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="diff" source="https://www.treccani.it/vocabolario/differenziazione/"> 
+                        L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente; 
+                        il processo per cui si diviene differente, si acquistano cioè caratteri distintivi; 
+                        la differenza stessa istituita o stabilitasi fra persone o cose in conseguenza di tale atto o processo: 
+                        la specializzazione porta necessariamente a una d. delle funzioni e dei compiti. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="temps">temps</term>
+                    <term xml:lang="it" ref="#temps">tempo</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="temps" source="https://dizionari.corriere.it/dizionario_italiano/T/tempo_1.shtml"> 
+                        Concetto intuitivamente collegato al divenire, alla durata, alla continuità (articolata in presente, passato e futuro) in cui situiamo ogni cosa, esperienza, avvenimento: il trascorrere del t. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="esp">espace</term>
+                    <term xml:lang="it" ref="#esp">spazio</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="esp" source="https://dizionari.repubblica.it/Italiano/S/spazio.html"> 
+                        Entità indefinita e illimitata, all'interno della quale sono situati e si muovono i corpi, che alla percezione comune risulta tridimensionale, estesa in larghezza, altezza e profondità e indipendente dal tempo.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="perpct">perspective</term>
+                    <term xml:lang="it" ref="#perpct">prospettiva</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="perpct" source="https://dizionari.repubblica.it/Italiano/S/spazio.html"> 
+                        Insieme di circostanze future che si possono prevedere.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="phen">phénomènes</term>
+                    <term xml:lang="it" ref="#phen">fenomeno</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="phen" source="https://dizionari.corriere.it/dizionario_italiano/F/fenomeno.shtml"> 
+                        Ciò che appare all'esperienza sensibile (spec. nel l. filos.); che si presenta come dato immediato del reale; che è passibile di osservazione scientifica: f. atmosferico, naturale. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="natml">naturellement</term>
+                    <term xml:lang="it" ref="#natml">naturalmente</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="natml" source="https://dizionario.internazionale.it/parola/naturalmente"> 
+                        In modo spontaneo, senza ricercatezza.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="lie">lieues</term>
+                    <term xml:lang="it" ref="#lie">leghe</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="lie" source="https://www.treccani.it/vocabolario/lega3/"> 
+                        Unità di misura di distanza, e soprattutto di percorsi terrestri o marittimi, usata in passato, e spesso ancora oggi.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="idm">idiome</term>
+                    <term xml:lang="it" ref="#idm">idioma</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="idm" source="https://www.garzantilinguistica.it/ricerca/?q=idioma"> 
+                        Il linguaggio proprio e particolare di un popolo, di una regione o di un ambiente culturalmente definito.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="surf">surface</term>
+                    <term xml:lang="it" ref="#surf">superficie</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="surf" source="https://dizionari.corriere.it/dizionario_italiano/S/superficie.shtml"> 
+                        Piano esterno e visibile che delimita un corpo nello spazio; in partic., faccia superiore di un corpo piano: s. di una tavola; estens. spazio limitato di terreno
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dist">distance</term>
+                    <term xml:lang="it" ref="#dist">distanza</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="dist" source="https://www.treccani.it/vocabolario/distanza/"> 
+                        La lunghezza del tratto di linea retta che congiunge due punti, o, più genericamente, la lunghezza del percorso fra due luoghi, due oggetti, due persone
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="intblm">inévitablement</term>
+                    <term xml:lang="it" ref="#intblm">inevitabilmente</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="intblm" source="https://www.treccani.it/vocabolario/inevitabile/"> 
+                       Che non può essere evitato.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="diffdia">différences dialectales</term>
+                    <term xml:lang="it" ref="#diffdia">differenze dialettali</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="diffdia" source="https://www.traducta.it/notizie/differenze-dialettali-italia"> 
+                       I dialetti, così come la lingua di un paese, possiedono un lessico e una grammatica precisa che ci permettono di trasmettere correttamente un messaggio e, rispettivamente, di interpretarlo in modo diretto.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="diaindv">dialectes individuels</term>
+                    <term xml:lang="it" ref="#diaindv">dialetto individuale</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="diaindv" source="https://it.wikipedia.org/wiki/Idioletto"> 
+                       L'insieme degli usi linguistici caratteristici e propri di un singolo individuo o di un piccolo gruppo di parlanti. Questo uso include il lessico, la grammatica e la pronuncia. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="vue">vue</term>
+                    <term xml:lang="it" ref="#vue">visione</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="vue" source="https://dizionari.repubblica.it/Italiano/V/visione.html"> 
+                       Il vedere per esaminare, osservare, studiare. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="ligst">linguistique</term>
+                    <term xml:lang="it" ref="#ligst">linguistico</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="ligst" source="https://www.treccani.it/vocabolario/linguistico/"> 
+                       Che riguarda la lingua, il linguaggio, come fatto sociale, o particolari aspetti, caratteri e manifestazioni della lingua.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="unt">unités</term>
+                    <term xml:lang="it" ref="#unt">unità</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="unt" source="https://www.treccani.it/vocabolario/unita/"> 
+                       Il fatto, la condizione e la caratteristica di essere uno, solo uno e non più di uno.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="geomnt">géographiquement</term>
+                    <term xml:lang="it" ref="#geomnt">geograficamente</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="geomnt" source="https://dizionario.internazionale.it/parola/geograficamente"> 
+                       Dal punto di vista della geografia, in base alla posizione o alla conformazione geografica.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dial">dialecte</term>
+                    <term xml:lang="it" ref="#dial">dialetto</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="dial" source="https://dizionari.corriere.it/dizionario_italiano/D/dialetto.shtml"> 
+                       Idioma proprio di una determinata comunità, caratterizzato dall'ambito geografico relativamente ristretto, dall'uso perlopiù orale e da particolari funzioni comunicative.
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dilsav">dialecte savoyard</term>
+                    <term xml:lang="it" ref="#dialsav">dialetto savoiardo</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="dilsav" source="https://it.wikipedia.org/wiki/Dialetto_savoiardo"> 
+                       Il savoiardo (chiamato Savoyârd in arpitano) è un dialetto della lingua arpitana, conosciuta anche come franco-provenzale. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="dilfr">dialecte français</term>
+                    <term xml:lang="it" ref="#dilfr">dialetto francese</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="dilfr" source="https://it.wikipedia.org/wiki/Lingua_francese"> 
+                       Il francese (français) è una lingua appartenente al gruppo delle lingue romanze.  
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="afinat">a final atone</term>
+                    <term xml:lang="it" ref="#afinat">a finale atona</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="afinat" source="https://dizionari.corriere.it/dizionario_italiano/A/atono.shtml"> 
+                       Che non ha accento tonico: sillaba, vocale. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="latin">latin</term>
+                    <term xml:lang="it" ref="#latin">latino</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="latin" source="https://it.wikipedia.org/wiki/Lingua_latina"> 
+                       Il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue latino-falische. Veniva parlata nel Lazio (Lătĭum in latino) almeno dagli inizi del I millennio a.C. 
+                    </gloss>   
+                </item>
+                <label>
+                    <term xml:lang="fr" xml:id="cardis">caractère distinctif</term>
+                    <term xml:lang="it" ref="#cardis">carattere distintivo</term>
+                </label>
+                <item>
+                    <gloss xml:lang="it" target="cardis" source="https://dizionario.internazionale.it/parola/carattere-distintivo"> 
+                        Tratto pertinente
+                    </gloss>   
+                </item>
+            </list>
+
+             <listPerson>
+                    <head>Persone</head>
+                    <person xml:id="FdS" source="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure"> 
+                        <persName role="author">
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <occupation>linguista</occupation>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26.11.1857">26 novembre 1857</date>
+                            <placeName ref="#Gin">
+                                <settlement type="municipality">Ginevra</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="22.02.1913">22 febbraio 1913</date>
+							<placeName ref="#VlC">
+								<settlement type="municipality">Vufflens-le-Château</settlement>
+								<country>Svizzera</country>
+							</placeName>
+                        </death> 
+                    </person>
+                    <person xml:id="MPM" source="https://it.wikipedia.org/wiki/Paul_Meyer_(filologo)"> 
+                        <persName role="author">
+                            <forename>Marie Paul</forename>
+                            <surname>Hyacinthe Meyer</surname>
+                        </persName>
+                        <occupation>filologo</occupation>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26.11.1857">17 gennaio 1840</date>
+                            <placeName ref="#Par">
+                                <settlement type="municipality">Parigi</settlement>
+                                <country>Francia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="22.02.1913">7 settembre 1917</date>
+							<placeName ref="#VlC">
+								<settlement type="municipality">Parigi</settlement>
+								<country>Francia</country>
+							</placeName>
+                        </death> 
+                    </person>
+             </listPerson>
+
+             <listOrg>
+                <head>Organizzazioni</head>
+                <org xml:id="EdC">
+                    <orgName ref="https://it.wikipedia.org/wiki/%C3%89cole_nationale_des_chartes">École des Chartes</orgName>
+                        <placeName ref="#Par">Parigi</placeName>
+                    <desc>
+                        L'École nationale des chartes fu fondata nel 1821 per garantire la formazione scientifica dei dirigenti delle biblioteche e archivi statali. Offre formazione di alto livello nel campo delle scienze documentarie della storia.
+                        Fa parte del sistema di istruzione superiore francese delle Grande écoles e vi si accede mediante concorso. 
+                    </desc>
+                </org>
+            </listOrg>
+
+            <listPlace>
+                <head>Luoghi</head>
+                <place xml:id="SudFr">
+                    <placeName ref="https://it.wikipedia.org/wiki/Midi_(Francia)">Sud de la France</placeName>
+                    <country>Francia</country>
+                    <desc>
+                        La Francia meridionale (altresì detta Sud della Francia o Francia mediterranea), conosciuta anche con il termine francese di Midi ([mi'di], 
+                        letteralmente "Mezzogiorno" od anche "Mezzodì", come è anche chiamato il meridione in Italia) è l'area geografica della Francia situata a sud dell'estuario della Gironda. 
+                        Confina ad ovest con l'oceano Atlantico, a sud-ovest con la Spagna e a sud-est con l'Italia.
+                    </desc>
+                </place>
+                <place xml:id="NEterr">
+                    <placeName ref="https://fr.wikivoyage.org/wiki/Nord-Est_de_la_France/">Nord-Est du territoire</placeName>
+                    <country>Francia</country>
+                    <desc xml:lang="fr">
+                        Le Nord-est de la France est une entité géographique, sociologique, économique et culturelle de France. La région correspond aux régions administratives suivantes : Grand Est, Bourgogne-Franche-Comté.
+                    </desc>
+                </place>
+                <place xml:id="Gex">
+                    <placeName ref="https://it.wikipedia.org/wiki/Gex">Gex</placeName>
+                    <country>Francia</country>
+                    <desc>
+                        Gex (in arpitano Gèx, in italiano Gesio) è un comune francese di 10 893 abitanti situato nel dipartimento dell'Ain della regione dell'Alvernia-Rodano-Alpi.
+                        È capoluogo dell'arrondissement di Gex (circoscrizione), che raggruppa 3 cantoni e 29 comuni per un totale di 73 701 abitanti (2008).
+                        Gex si trova ai piedi del massiccio del Giura. Questo ha permesso lo sviluppo turistico legato alla stazione di Mijoux-La Faucille, accessibile tramite il Colle della Faucille.
+                        La maggior parte degli abitanti è frontaliera e lavora in Svizzera, soprattutto nel settore terziario e presso il CERN. 
+                    </desc>
+                </place>
+                <place xml:id="FrCom">
+                    <placeName ref="https://it.wikipedia.org/wiki/Franca_Contea">Franche-Comté</placeName>
+                    <country>Francia</country>
+                    <desc>
+                        La Franca Contea (in francese Franche-Comté, in francoconteese Fraintche-Comtè, in francoprovenzale Franche-Comtât, in tedesco Freigrafschaft Burgund, in spagnolo Franco Condado) è una regione storica ed ex regione amministrativa della Francia.
+                        Il suo territorio comprendeva 4 dipartimenti: Territorio di Belfort (90, Territoire de Belfort), Doubs (25), Alta Saona (70, Haute-Saône) e Giura (39, Jura). Sono inclusi nella regione 8 arrondissement, 62 cantoni e 1707 comuni. 
+                    </desc>
+                </place>
+                <place xml:id="Par">
+                    <placeName ref="https://it.wikipedia.org/wiki/Parigi">Paris</placeName>
+                    <country>Francia</country>
+                    <desc>
+                        Parigi è la capitale e la città più popolata della Francia, capoluogo della regione dell'Île-de-France e l'unico comune a essere nello stesso tempo dipartimento, secondo la riforma del 1977 e i dettami della legge PML che espansero i vecchi confini comunali.
+                    </desc>
+                </place>
+            </listPlace>
+
+            <listBibl xml:id="prolusioni_bibliography">
+                <head>Bibliografia</head>
+                <bibl>
+                    <author>
+                        <persName ref="#FdS">
+                            <forename>Ferdinand</forename> 
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author>
+                    <date when="1891">1891</date>
+                    <note>
+                        Manoscitto
+                    </note>
+                </bibl>
+                <bibl corresp="cit"> 
+                    <title type="main">Écrits de linguistique générale de Ferdinand de Saussure</title>
+                    <author>
+                        <persName ref="#SB">
+                            <forename>Simon</forename> 
+                            <surname>Bouquet</surname>
+                        </persName>
+                        <persName ref="#RE">
+                            <forename>Rudolf</forename> 
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                    <date when="2002">2002</date>
+                    <publisher>Gallimard</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <note>
+                        Trascrizione manoscritto
+                    </note>
+                </bibl>
+                <bibl xml:id="Fadda" corresp="cit">
+                    <title type="main">Lingua e mente sociale</title>
+                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>  
+                    <publisher>Bonanno Editore</publisher>
+                    <pubPlace>Alessandria</pubPlace>
+                    <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                    <note>
+                        Traduzione del manoscritto
+                    </note>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</TEI>

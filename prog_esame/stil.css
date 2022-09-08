@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+body{
+	font-family: Calibri light, serif;
+    background-color: #fce47e;
+}
+
+.tit{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.navbar{
+    background-color: #cd853f;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.alink{
+    background-color: #fce47e; 
+    border: 2px solid #cd853f;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.alink:hover{
+    background-color: #cd853f; 
+    color: white;
+}
+
+.titoletto{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -8px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.titoletto1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.mappatarg:target:after{
+    content: "---------------------------------------------------------------------";
+    -moz-animation: cssAnimation12 2s;
+    /* Firefox */
+    -webkit-animation: cssAnimation12 0s ease-in 2s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation12 0s ease-in 2s forwards;
+    /* Opera */
+    animation: cssAnimation12 0s ease-in 2s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation12 {
+    to {
+        content: "";
+    }
+}
+@-webkit-keyframes cssAnimation12 {
+    to {
+        content: "";
+    }
+}
+
+
+#p17retro, #p16retro{
+    display: none;
+} 
+
+#p17retro_, #p16retro_{
+    width: 300px;
+    margin: 40px;
+}
+
+#gridcont{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+#grid1{
+    padding: 10px;
+    margin: 10px;
+}
+
+.pagine1, .pagine2{
+    height: 600px;
+    width: 384px;
+    margin: 10px;
+}
+
+.trascrizione1, .trascrizione2{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+#traduzione_pag17, #traduzione_pag16{
+    display: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.a17retro, .a16retro, .traduzione16, .traduzione17{
+    margin: 10px;
+    margin-left: 40px;
+    background-color: #fce47e; 
+    border: 2px solid #cd853f;
+    font-size: 16px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.linetrad:hover{
+    background-color: rgb(205, 133, 63);
+}
+
+.lineactive:target:after{
+    content: "---------------------------------------------------------------------";
+    -moz-animation: cssAnimation1 2s;
+    /* Firefox */
+    -webkit-animation: cssAnimation1 0s ease-in 2s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation1 0s ease-in 2s forwards;
+    /* Opera */
+    animation: cssAnimation1 0s ease-in 2s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation1 {
+    to {
+        content: "";
+    }
+}
+@-webkit-keyframes cssAnimation1 {
+    to {
+        content: "";
+    }
+}
+
+.canc{
+    text-decoration: line-through;
+}
+
+.text18{
+    font-size: 18px;
+    font-style: italic;
+}
+
+#Pres{
+    margin: 40px;
+}
+
+.first{
+    font-weight: bold;
+}
+
+.persname{
+    text-decoration: none;
+    color: black;
+    background-color: #3fcd5b;
+}
+.persona:target{
+    background-color: #3fcd5b;
+    -moz-animation: cssAnimation 2s;
+    /* Firefox */
+    -webkit-animation: cssAnimation 2s;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 2s;
+    /* Opera */
+    animation: cssAnimation 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+
+.nomegrande{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.luoghiname{
+    text-decoration: none;
+    color: black;
+    background-color: #3f6ccd;
+}
+
+.luogo:target{
+    background-color: #3f6ccd;
+    -moz-animation: cssAnimation 2s;
+    /* Firefox */
+    -webkit-animation: cssAnimation 2s;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 2s;
+    /* Opera */
+    animation: cssAnimation 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+
+.org{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.termname{
+    background-color: #f798c9;
+    text-decoration: none;
+    color: black;
+}
+
+.termine:target{
+    background-color: #f798c9;
+    -moz-animation: cssAnimation 2s;
+    /* Firefox */
+    -webkit-animation: cssAnimation 2s;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 2s;
+    /* Opera */
+    animation: cssAnimation 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        background-color: rgb(255, 254, 198);
+    }
+}
+
+.coloreterm{
+    background-color: #f798c9;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.colorepers{
+    background-color: #3fcd5b;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.coloreadd{
+    background-color: #fffdd0;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.coloreluoghi{
+    background-color: #3f6ccd;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.colorestran{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #cd3f3f;
+}
+
+.coloreabbr{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.legenda{
+    background-color: #cd853f;
+    margin: 40px auto;
+    width: 700px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-style: groove;
+    border-color: #ba5a26;
+}
+
+.contg{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.griglia1, .griglia2{
+    padding: 10px;
+    margin: 10px;
+}
+
+.info{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.Glossario, .Luoghi{
+    overflow-y: scroll;
+    height: 400px;
+    
+}
+#Glossario, #Luoghi, #Persone{
+    margin: 40px;
+    background-color: rgb(255, 254, 198);
+    padding: 20px;
+    padding-top: 2px;
+}
+
+.sottolinea{
+    text-decoration: underline;
+}
+
+.mentioned{
+    border: 2px solid #cd3f3f;
+}
+
+.sic{
+    display: none;
+} 
+
+.check{
+    padding: 10px
+}
+
+#checkbox1{ 
+    margin-right: 10px;
+}
+
+.add{
+    background-color: #fffdd0;
+}
+
+.abbr{
+    font-style: italic;
+}
+
+#titololibro{
+    font-style: italic;
+}
+
+#Biblio{
+    margin-left: 40px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+.parole{
+    font-weight: bolder;
+    font-size: 17px;
+    color: red;
+}
+
+.suppl{
+    display: none;
+}
+.orig{
+    display: none;
+}
