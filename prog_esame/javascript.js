@@ -77,13 +77,6 @@ function display() {
   }}
 
 };
-function display1(x) {
-  x.childNodes[0].style.display = "inline-block";
-  x.childNodes[1].style.display ="none";  
-  x.childNodes[0].style.fontWeight= "bolder";
-  x.childNodes[0].style.fontSize= "17px";
-  x.childNodes[0].style.backgroundColor= "#ccc";
-};
 
 
 
